@@ -24,6 +24,11 @@ p {
     padding: 0;
 }
 
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -37,13 +42,13 @@ ul {
 }
 
 .container {
+    border: dashed red;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
-    background-color: aqua;
 }
 
 @media screen and (min-width: 480px) {
@@ -82,3 +87,38 @@ background-color: #1B5AAD;
 .header-container{
     text-align: center;
 }
+
+.biography-container{
+    display: flex;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+}
+
+figure {
+    width: 100%; 
+}
+
+figure > img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.contacts-container{
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info{
+    text-align: center;
+}
+
+.footer-info > a{
+text-decoration: none;}
