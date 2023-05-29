@@ -204,6 +204,10 @@ p{
     align-items: center;
 }
 
+/* figure {
+  width: auto;
+} */
+
 @media screen and (min-width: 768px) {
     figure {
             width: 100%;
