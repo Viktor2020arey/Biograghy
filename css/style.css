@@ -126,20 +126,28 @@ background-color: #1B5AAD;
 }
 
 .biography-container{
-    display: block;
     margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1200px) {
-    .biography-container {
-        display: flex;
+.biography-container {
+       display: flex;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .biography-container > img {
-            margin-right: 30px;
-        }
+    .biography-text {
+      padding-left: 10px;
+    
+    }
+}
+
+.biography-text{
+    padding-left: 10px;
+}
+
+.text{
+    margin-bottom: 15px;
 }
 
 .title-flex {
@@ -177,6 +185,7 @@ background-color: #1B5AAD;
 
 @media screen and (min-width: 1200px) {
     .title2-container {
+        width: 550px;
         margin-right: 40px;
     }
 }
@@ -423,7 +432,9 @@ font-family: 'Abhaya Libre Medium';
     align-items: center;
 }
 
-
+.item:nth-child(2n+1){
+    flex-direction: row-reverse;
+}
 
 @media screen and (min-width: 1200px) {
     .item {
