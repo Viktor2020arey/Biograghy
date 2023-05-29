@@ -200,10 +200,10 @@ p{
     }
 } */
 
-.image-container{
+/* .image-container{
     margin-top: 25px;
     align-items: center;
-}
+} */
 
 /* figure {
   width: auto;
@@ -215,11 +215,11 @@ p{
         }
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
     .image-container {
         display: flex;
     }
-}
+} */
 
 @media screen and (min-width: 1200px) {
     figure {
@@ -305,3 +305,12 @@ font-family: 'Abhaya Libre Medium';
     justify-content: center;
     align-items: center;
 }
+
+
+
+@media screen and (min-width: 1200px) {
+    .item {
+        display: flex;
+    }
+}
+
