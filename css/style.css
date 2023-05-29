@@ -204,16 +204,22 @@ p{
     align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+    figure {
+            width: 100%;
+        }
+}
+
 @media screen and (min-width: 1200px) {
     .image-container {
         display: flex;
     }
 }
 
-
-figure {
-    width: 100%; 
-    /* margin: 0; */
+@media screen and (min-width: 1200px) {
+    figure {
+        width: 100%;
+    }
 }
 
 figure > img{
@@ -227,11 +233,6 @@ figcaption {
     font-size: 22px;
     line-height: 26px;
     color: #000000;
-}
-
-.contacts-container{
-    
-    
 }
 
 @media screen and (min-width: 1200px) {
