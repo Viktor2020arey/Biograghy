@@ -130,10 +130,6 @@ background: linear-gradient(to right, #1B5AAD 75%, #7aa3d8 );
     }
 }
 
-.biography-text{
-    padding-left: 10px;
-}
-
 .text{
     margin-bottom: 15px;
 }
@@ -352,14 +348,14 @@ font-family: 'Abhaya Libre Medium';
 }
 
 .footer-name.mats{
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 25px;
+    line-height: 28px;
 }
 
 @media screen and (min-width: 768px) {
     .footer-name.mats {
-        font-size: 35px;
-        line-height: 38px;
+        font-size: 30px;
+        line-height: 32px;
     }
 }
 
