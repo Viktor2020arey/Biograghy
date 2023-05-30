@@ -195,12 +195,12 @@ background: linear-gradient(to right, #1B5AAD 75%, #7aa3d8 );
     line-height: 42px; */
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
 .title2-container>h2 {
         font-size: 44px;
         line-height: 46px;
     }
-}
+} */
 
 @media screen and (min-width: 1200px) {
     .title2-container>h2 {
@@ -228,8 +228,8 @@ background: linear-gradient(to right, #1B5AAD 75%, #7aa3d8 );
 @media screen and (min-width: 1200px) {
     .title2-container>h3 {
         width: 290px;
-        font-size: 30px;
-            line-height: 33px;
+        /* font-size: 30px;
+            line-height: 33px; */
     }
 }
 
@@ -246,12 +246,12 @@ p{
             letter-spacing: -.021em;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     p {
         font-size: 29px;
         line-height: 31px;
     }
-}
+} */
 
 @media screen and (min-width: 1200px) {
     p {
@@ -292,12 +292,12 @@ figcaption {
     
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     figcaption {
         font-size: 20px;
             line-height: 22px;
     }
-}
+} */
 
 @media screen and (min-width: 1200px) {
     figcaption {
@@ -346,12 +346,12 @@ font-size: 20px;
     color: #CC3129;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .contacts {
         font-size: 40px;
             line-height: 43px;
     }
-}
+} */
 
 @media screen and (min-width: 1200px) {
     .contacts {
@@ -376,12 +376,12 @@ font-size: 28px;
     margin-bottom: 15px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .footer-name {
         font-size: 40px;
         line-height: 43px;
     }
-}
+} */
 
 @media screen and (min-width: 1200px) {
     .footer-name {
@@ -395,12 +395,12 @@ font-size: 28px;
     line-height: 24px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .footer-name.mats {
         font-size: 30px;
         line-height: 32px;
     }
-}
+} */
 
 @media screen and (min-width: 1200px) {
     .footer-name.mats {
@@ -425,12 +425,12 @@ font-size: 28px;
         color: #000000;
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
     .footer-info>a {
     font-size: 30px;
         line-height: 33px;
     }
-}
+} */
 
 .social-list {
     display: flex;
