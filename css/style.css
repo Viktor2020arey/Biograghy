@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'Pragmatica ExtraLight Reg';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Pragmatica ExtraLight Reg'), url('Pragmatica-ExtraLight.woff') format('woff');
+}
+
 body {
 margin: auto;
-font-family: 'Abhaya Libre';
+font-family: 'Pragmatica ExtraLight Reg';
+/* font-family: 'Abhaya Libre'; */
 letter-spacing: 0.03em;
 color: #212121;
 }
@@ -17,7 +25,7 @@ p {
 h1{
     text-align: center;
     margin-bottom: 30px;
-    font-family: 'Abhaya Libre ExtraBold';
+    /* font-family: 'Abhaya Libre ExtraBold'; */
         font-style: normal;
         font-weight: 800;
         font-size: 56px;
@@ -214,7 +222,7 @@ background: linear-gradient(to right, #1B5AAD 75%, #7aa3d8 );
 }
 
 p{
-    font-family: 'Abhaya Libre';
+    /* font-family: 'Abhaya Libre'; */
         font-style: normal;
         font-weight: 400;
         font-size: 25px;
@@ -301,7 +309,7 @@ figcaption {
 }
 
 .contacts{
-font-family: 'Abhaya Libre ExtraBold';
+/* font-family: 'Abhaya Libre ExtraBold'; */
     font-style: normal;
     font-weight: 800;
     font-size: 35px;
@@ -324,7 +332,7 @@ font-family: 'Abhaya Libre ExtraBold';
 }
     
 .footer-name{
-font-family: 'Abhaya Libre Medium';
+/* font-family: 'Abhaya Libre Medium'; */
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
