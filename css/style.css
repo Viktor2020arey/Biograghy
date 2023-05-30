@@ -183,10 +183,16 @@ background: linear-gradient(to right, #1B5AAD 75%, #7aa3d8 );
 }
 
 .title2-container>h2 {
-    font-style: normal;
+    font-size: 28px;
+    line-height: 1.1073;
+    font-weight: 500;
+    letter-spacing: .012em;
+    margin-bottom: 15px;
+
+    /* font-style: normal;
     font-weight: 500;
     font-size: 40px;
-    line-height: 42px;
+    line-height: 42px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -206,11 +212,17 @@ background: linear-gradient(to right, #1B5AAD 75%, #7aa3d8 );
 .title2-container > h3 {
     
     width: auto;
-    font-style: normal;
-    font-weight: 400;
+
     font-size: 24px;
-    line-height: 27px;
-    margin-bottom: 10px;
+        line-height: 1.20849;
+        font-weight: 300;
+        letter-spacing: .015em;
+
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* font-size: 24px; */
+    /* line-height: 27px; */
+    margin-bottom: 15px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -223,10 +235,15 @@ background: linear-gradient(to right, #1B5AAD 75%, #7aa3d8 );
 
 p{
     /* font-family: 'Abhaya Libre'; */
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 27px;
+        /* font-style: normal; */
+        /* font-weight: 400; */
+        /* font-size: 25px; */
+        /* line-height: 27px; */
+
+        font-size: 17px;
+            line-height: 1.52947;
+            font-weight: 400;
+            letter-spacing: -.021em;
 }
 
 @media screen and (min-width: 768px) {
@@ -263,9 +280,16 @@ figure > img{
 figcaption {
     margin-top: 5px;
     text-align: center;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+
+    /* font-size: 18px; */
+    /* line-height: 20px; */
     color: #000000;
+
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -299,7 +323,7 @@ figcaption {
     margin-left: 25px;
     margin-top: 20px;
     width: 100%;
-    border-top: solid 2px #CC3129;
+    border-top: solid 1px #CC3129;
 }
 
 @media screen and (min-width: 768px) {
@@ -310,10 +334,15 @@ figcaption {
 
 .contacts{
 /* font-family: 'Abhaya Libre ExtraBold'; */
-    font-style: normal;
-    font-weight: 800;
-    font-size: 35px;
-    line-height: 38px;
+font-size: 20px;
+    line-height: 1.52947;
+    font-weight: 400;
+    letter-spacing: -.021em;
+
+    /* font-style: normal; */
+    /* font-weight: 800; */
+    /* font-size: 35px; */
+    /* line-height: 38px; */
     color: #CC3129;
 }
 
@@ -333,10 +362,16 @@ figcaption {
     
 .footer-name{
 /* font-family: 'Abhaya Libre Medium'; */
-    font-style: normal;
+font-size: 28px;
+    line-height: 1.1073;
     font-weight: 500;
-    font-size: 35px;
-    line-height: 37px;
+    letter-spacing: .012em;
+    /* margin-bottom: 15px; */
+
+    font-style: normal;
+    /* font-weight: 500; */
+    /* font-size: 35px; */
+    /* line-height: 37px; */
     color: #000000;
     margin-bottom: 15px;
 }
@@ -356,8 +391,8 @@ figcaption {
 }
 
 .footer-name.mats{
-    font-size: 25px;
-    line-height: 28px;
+    font-size: 22px;
+    line-height: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -382,8 +417,8 @@ figcaption {
 .footer-info > a{
     font-style: normal;
         font-weight: 400;
-        font-size: 25px;
-        line-height: 27px;
+        font-size: 18px;
+        line-height: 21px;
         text-align: center;
         text-decoration: none;
     
