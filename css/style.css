@@ -213,7 +213,7 @@ background: linear-gradient(to right, #1B5AAD 75%, #7aa3d8 );
     
     width: auto;
 
-    font-size: 24px;
+    font-size: 20px;
         line-height: 1.20849;
         font-weight: 300;
         letter-spacing: .015em;
@@ -334,7 +334,7 @@ figcaption {
 
 .contacts{
 /* font-family: 'Abhaya Libre ExtraBold'; */
-font-size: 20px;
+font-size: 18px;
     line-height: 1.52947;
     font-weight: 400;
     letter-spacing: -.021em;
@@ -362,7 +362,7 @@ font-size: 20px;
     
 .footer-name{
 /* font-family: 'Abhaya Libre Medium'; */
-font-size: 28px;
+font-size: 20px;
     line-height: 1.1073;
     font-weight: 500;
     letter-spacing: .012em;
@@ -391,8 +391,8 @@ font-size: 28px;
 }
 
 .footer-name.mats{
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 /* @media screen and (min-width: 768px) {
@@ -417,8 +417,8 @@ font-size: 28px;
 .footer-info > a{
     font-style: normal;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 21px;
+        font-size: 16px;
+        line-height: 18px;
         text-align: center;
         text-decoration: none;
     
