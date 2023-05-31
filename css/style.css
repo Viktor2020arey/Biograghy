@@ -177,7 +177,7 @@ background: linear-gradient(to right, #1B5AAD 75%, #7aa3d8 );
 
 @media screen and (min-width: 1200px) {
     .title2-container {
-        width: 550px;
+        width: 485px;
         margin-right: 40px;
     }
 }
